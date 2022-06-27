@@ -1,0 +1,17 @@
+.listing {
+    width:100%;
+}
+
+.listing > ::deep div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* also works: */
+/* 
+.listing ::deep > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
